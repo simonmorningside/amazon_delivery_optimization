@@ -1,0 +1,27 @@
+I chose Amazon as my target company, operating in the e-commerce fulfillment and logistics industry. I am interested in this field because it combines large-scale data systems with real-world operational decision-making. Problems like delivery routing, warehouse efficiency, and cost control are highly measurable and can be improved through optimization techniques.
+From a career perspective, this area is especially appealing because it directly connects technical skills like data analysis and machine learning to business impact. Amazon is a strong example of this, as it relies heavily on optimization models to manage its global fulfillment network and maintain its competitive advantage.
+Primary Objective: Minimize fulfillment and delivery cost per order.
+Secondary Objective: Maximize delivery speed and on-time delivery performance.
+The Tradeoff:
+ Amazon’s business model depends on fast, reliable shipping, but increasing delivery speed significantly raises costs. Faster delivery requires more fulfillment centers closer to customers, higher inventory levels, and more expensive transportation methods like air shipping or same-day logistics. At the same time, Amazon must control these costs to remain profitable, especially as its fulfillment network continues to expand. This creates a constant tension between offering faster delivery and maintaining cost efficiency.
+Constraints
+    • Facility capacity limits: Warehouses and fulfillment centers can only process a limited number of orders at a time, which restricts how many fast deliveries can be handled simultaneously.
+
+    • Transportation availability: Delivery speed depends on available trucks, drivers, and routes, meaning logistics capacity cannot be assumed to be unlimited.
+
+    • Inventory placement limitations: Products must be stored near customers to enable fast delivery, but storing every item everywhere is too expensive and impractical.
+
+    • Service-level expectations: Amazon Prime and same-day delivery promises create strict performance requirements that must be met to maintain customer satisfaction.
+
+    • Budget and profitability pressures: Rising fulfillment and shipping costs require Amazon to carefully balance spending with operational efficiency.
+
+This tradeoff is critical to Amazon’s success because fulfillment performance is one of its main competitive advantages. Customers expect fast and reliable delivery, and Amazon has built its brand around meeting those expectations. However, this comes at a cost. According to Amazon’s 2025 annual report, fulfillment expenses continue to rise due to increased sales volume and ongoing investments in logistics infrastructure. At the same time, Amazon has expanded its same-day and next-day delivery capabilities to more regions, showing that speed remains a top priority.
+Job postings at Amazon also highlight the importance of this problem. Roles in operations research and applied science focus on optimizing fulfillment networks, improving efficiency, and reducing costs while maintaining service quality. This demonstrates that the company actively invests in solving this tradeoff.
+If Amazon can better optimize this balance, it could significantly reduce operational costs while maintaining or even improving delivery performance. This would improve profitability, increase efficiency in resource usage, and strengthen its competitive position against other e-commerce companies. Overall, this tradeoff directly impacts both customer satisfaction and financial performance, making it a high-value optimization problem.
+I will use a public dataset to model this problem. Specifically, I plan to use the Brazilian E-Commerce Public Dataset by Olist (Kaggle), which contains detailed information on orders, delivery times, shipping costs, and customer locations.
+This dataset is appropriate because it includes variables that represent both objectives in my tradeoff, such as delivery time (speed) and freight value (cost). While it is not Amazon-specific, it provides a realistic and scalable representation of e-commerce logistics data. I will use this dataset to simulate optimization scenarios that reflect the constraints and tradeoffs Amazon faces in its fulfillment network.
+
+this is my capstone that i am working on, is there a way you can instead of using the kaggle dataset create me synthetic data with around 150 rows with the proper variables needed to create this optimization engine
+
+
+This looks like it would work great. can you keep a similar csv structure however add theses relationships to make the data just a little more realistic and then i will use this for my project
